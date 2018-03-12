@@ -1,6 +1,5 @@
 translated=''
-print("Enter plain text or cipher text")
-message=input()
+message=input("Enter plain text or cipher text")
 i=len(message)-1
 while i>=0:
     translated = translated + message[i]
